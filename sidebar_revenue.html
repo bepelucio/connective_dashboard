@@ -1,0 +1,235 @@
+<!--header start-->
+<header class="header fixed-top clearfix">	
+<!--logo start-->
+<div class="brand">
+    <a href="index.php" class="logo">
+        <img src="images/logo_connect.png" alt="">
+    </a>
+    <div class="sidebar-toggle-box">
+        <div class="fa fa-bars"></div>
+    </div>
+</div>
+<!--logo end-->
+
+<div class="nav notify-row" id="top_menu">
+    <!--  notification start -->
+    <ul class="nav top-menu">
+        <!-- settings start -->
+        <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-tasks"></i>
+                <span class="badge bg-success">1</span>
+            </a>
+            <ul class="dropdown-menu extended tasks-bar">
+                <li>
+                    <p class="">You have 1 pending request</p>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="task-info clearfix">
+                            <div class="desc pull-left">
+                                <h5 style="font-size:11px;">Gustavo Mendes want to schedule a call
+</h5>
+                                <p>Oct 14, 16h00
+                            </div>
+                                    <span class="notification-pie-chart pull-right" data-percent="45">
+                            
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="external">
+                    <a href="calendar.php">See All Requests</a>
+                </li>
+            </ul>
+        </li>
+        <!-- settings end -->
+        <!-- inbox dropdown start-->
+        <li id="header_inbox_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-envelope-o"></i>
+                <span class="badge bg-important">4</span>
+            </a>
+            <ul class="dropdown-menu extended inbox">
+                <li>
+                    <p class="red">You have 4 new messages</p>
+                </li>
+                <li>
+                    <a href="mail_view.php">
+                        <span class="photo"><img alt="avatar" src="images/avatar-mini.jpg"></span>
+                                <span class="subject">
+                                <span class="from">Jonathan Smith</span>
+                                <span class="time">Just now</span>
+                                </span>
+                                <span class="message">
+                                    Hello, did you see my last email?
+                                </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mail_view.php">
+                        <span class="photo"><img alt="avatar" src="images/avatar-mini-2.jpg"></span>
+                                <span class="subject">
+                                <span class="from">Jane Doe</span>
+                                <span class="time">2 min ago</span>
+                                </span>
+                                <span class="message">
+                                    Check out my business proposal.
+                                </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mail.php">See all messages</a>
+                </li>
+            </ul>
+        </li>
+        <!-- inbox dropdown end -->
+        <!-- notification dropdown start-->
+        <li id="header_notification_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+
+                <i class="fa fa-bell-o"></i>
+                <span class="badge bg-warning">3</span>
+            </a>
+            <ul class="dropdown-menu extended notification">
+                <li>
+                    <p>Notifications</p>
+                </li>
+                <li>
+                    <div class="alert alert-warning clearfix">
+                        <span class="alert-icon"><i class="fa fa-bell-o"></i></span>
+                        <div class="noti-info">
+                            <a href="#"> Meeting with John Snow today</a>
+                        </div>
+                    </div>
+                </li>
+     
+            </ul>
+        </li>
+        <!-- notification dropdown end -->
+    </ul>
+    <!--  notification end -->
+</div>
+<div class="top-nav clearfix">
+    <!--search & user info start-->
+    <ul class="nav pull-right top-menu">
+        <li>
+            <input type="text" class="form-control search" placeholder=" Search">
+        </li>
+        <li class="dropdown language">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                <img alt="" src="images/flags/us.png">
+                <span class="username">US</span>
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#"><img alt="" src="images/flags/es.png"> Español</a></li>
+                <li><a href="#"><img alt="" src="images/flags/pt.png"> Português</a></li>
+				<li><a href="#"><img alt="" src="images/flags/de.png"> Deutsche</a></li>
+                <li><a href="#"><img alt="" src="images/flags/fr.png"> Français</a></li>
+            </ul>
+        </li>
+        <!-- user login dropdown start-->
+        <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <img alt="" src="images/alexsmith.jpg">
+                <span class="username">Alex Smith</span>
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu extended logout">
+                <li><a href="http://connective.bepelucio.com/profiles/profile_advisor/advisor.html"><i class=" fa fa-suitcase"></i>Profile</a></li>
+                <li><a href="login.php"><i class="fa fa-key"></i> Log Out</a></li>
+            </ul>
+        </li>
+        <!-- user login dropdown end -->
+    </ul>
+    <!--search & user info end-->
+</div>
+</header>
+<!--header end-->
+<!--sidebar start-->
+<aside>
+    <div id="sidebar" class="nav-collapse">
+        <!-- sidebar menu start-->
+        <div class="leftside-navigation">
+			<!--profile start
+                <div class="feed-box text-center">
+                    <section class="panel" style="background-color: #32323A; margin-top: -29px; padding-bottom: 9px; color: #CCC; line-height: 20px;
+text-align: justify; padding-left: 27px; font-size: 12px; font-weight: 300;">
+                        <div class="panel-body">
+                            </div>
+                            <a href="#">
+                                <img alt="" src="images/alexsmith.jpg">
+                            </a>
+                            <h1 style="margin-left:29px; color:#f1f1f1;">Alex Smith</h1>
+                          <i class="fa fa-suitcase"></i>
+                          Revenue Manager 
+						   <br/>
+                          <i class="fa fa-building-o"></i>
+                          Four Seasons Hotel Ritz Lisbon
+                          <i class="fa fa-home"></i>
+                          Porto, Portugal
+						   <br/>
+                      
+                    </section>
+			</div>
+			profile end-->
+            <ul class="sidebar-menu" id="nav-accordion">
+                <li>
+                    <a href="index.php">
+                        <i class="fa fa-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+				
+                <li>
+                    <a href="profile.php">
+                        <i class="fa fa-user"></i>
+                        <span>Profile </span>
+                    </a>
+                </li>
+
+                 <li>
+                    <a href="student.php">
+                        <i class="fa fa-book"></i>
+                        <span>Students </span>
+                    </a>
+                </li>
+				
+                <li>
+                    <a href="mail.php">
+                      <i class="fa fa-envelope"></i>
+                        <span>Messages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="calendar.php">
+                        <i class="fa fa-calendar"></i>
+                        <span>Appointment requests </span>
+                    </a>
+                </li>
+				
+                <li>
+                    <a href="connections.php">
+                        <i class="fa fa-users"></i>
+                        <span>My Connections  </span>
+                    </a>
+                </li>
+				
+                <li>
+                    <a class="active" href="revenue_morris.php">
+                        <i class="fa fa-bar-chart-o"></i>
+                        <span>Revenue</span>
+                    </a>
+                </li>
+				
+             
+		 </div>
+        <!-- sidebar menu end-->
+    </div>
+</aside>
+
+<!--sidebar end-->
+
+
+
